@@ -1,4 +1,4 @@
-/*переменная для */
+/*переменная для цвета и шрифта */
 :root {
   --main-title-color: #e5e5e5;
   --second-title-color: #2f303a;
@@ -10,11 +10,13 @@
 
   --accent-color: #2196f3;
   --white-hero: #ffffff;
+  --background-color: #e5e5e5;
 }
 
 /* Шрифт для всего тела */
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", font-size, sans-serif, letter-spacing;
+  background-color: var(--background-color);
 }
 
 /*скидывает точки со списков li*/
@@ -24,6 +26,12 @@ body {
 
 /*забираю подчеркивание с сылок */
 .link {
+  text-decoration: none;
+}
+.header-email {
+  text-decoration: none;
+}
+.header-tel {
   text-decoration: none;
 }
 
@@ -155,22 +163,20 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: мфк(--white-hero);
 }
 .section-btnn:hover {
   color: var(--accent-color);
 }
 
 /* откключил заголовки*/
-.none {
-  display: none;
+.one-ring {
+  visibility: hidden;
 }
-
 /*секция качества над оторыми работает сайт */
 .heading {
-  font-weight: bold;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -185,7 +191,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 /*фотоотчет*/
@@ -210,13 +216,11 @@ body {
 }
 
 .name-developer {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1;
-  /* identical to box height */
-
-  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   color: var(--first-text-color);
 }
@@ -230,7 +234,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 /*сексция однотипным контентом (портфолио)*/
@@ -238,21 +242,10 @@ body {
 .portfolio {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2px;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
 
   color: var(--first-text-color);
-}
-
-.heading {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: var(--second-text-color);
 }
