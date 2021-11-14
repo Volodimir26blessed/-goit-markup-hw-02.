@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,24 +21,26 @@
 
 <body>   
     <!--Шапка прошиля-->
-<header class="header" >
+<header class="" >
   <!--это все навигация ведет к другим страницам или к формам регистрации (кнопки в nav не попадают) -->
-<nav class="header-navigation" >
-    <!--Ссылка навигация -->
- <a class="link header-logo " href="http://127.0.0.1:5500/">Web<span class="color" >Studio</span></a>
-    <!--список ссылок ( набор одноттиппного контента )-->
-  <ul class="list header-list" >
-      
-      <li class="header-item" ><a class="link header-studia" href="#"> Студия</a></li>
-      <li class="header-item" ><a class="link header-portfolio" href="#">Портфолио</a></li>
-      <li class="header-item" ><a class="link header-link" href="#">Контакты</a></li>
-  </ul>
+<nav class="nav" >
+<a class="logo reset-decoration" href="http://127.0.0.1:5500/">Web<span class="logo-color">Studio</span></a>
 
-<ul class="list header-list">
-   <li class="link" ><a class="header-email" href="mailto:info@example."></a>info@devstudio.com</li>
-   <li class="link" ><a class="header-tel" href="tel:+380991111111">+380991111111</a></li>
+
+<ul class="list reset-point">
+    <li class="list-item"><a class="list-link reset-decoration" href="#">Студия</a></li>
+    
+    <li class="list-item"><a class="list-link reset-decoration" href="http://127.0.0.1:5500/portfolio.html">Портфолио</a>
+    </li>
+    
+    <li class="list-item"><a class="list-link reset-decoration" href="#">Контакты</a></li>
 </ul>
 
+<ul class="reset-point">
+    <li class=""><a class="reset-decoration mail" href="mailto:info@example.">info@devstudio.com</a></li>
+
+    <li class=""><a class="reset-decoration tel" href=":+380991111111">+38 099 111 11 11</a></li>
+</ul>
 </nav>
 
 </header>
@@ -47,34 +50,34 @@
 
 <!--Секцеонный елемент в котором главний заголовок и ссилка ( или кнопка) -->
 
-<section class="section" >
-  <h1 class="section-hiro" >Эффективные решения для вашего бизнеса</h1>
-  <button class="section-btnn" type="button">Заказать услугу</button>
+<section class="first-section" >
+  <h1 class="text-title" >Эффективные решения для вашего бизнеса</h1>
+  <button class="button" type="button">Заказать услугу</button>
 </section>
 
 
 <!--секция качества над которыми работает сайт  -->
-<section>
- <h2 class="one-ring" >чем занимается команда</h2>
-    <ul class="list" >
+<section class="second-section">
+ <h2 class="Hide-text" >чем занимается команда</h2>
+    <ul class="reset-point" >
         <li>
-             <h3 class="heading" >Внимание к деталям</h3>
-             <p class="paragraph" >Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+             <h3 class="first-text" >Внимание к деталям</h3>
+             <p class="second-text" >Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
        </li>
 
         <li>
-             <h3 class="heading" >Пунктуальность</h3>
-             <p class="paragraph" >Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+             <h3 class="first-text" >Пунктуальность</h3>
+             <p class="second-text" >Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
        </li>
 
         <li>
-             <h3 class="heading" >Планирование</h3>
-             <p class="paragraph" >Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+             <h3 class="first-text" >Планирование</h3>
+             <p class="second-text" >Равным образом консультация с широким активом в значительной степени обуславливает.</p>
        </li>
 
         <li>
-             <h3 class="heading" >Современные технологии</h3>
-             <p class="paragraph" >Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+             <h3 class="first-text" >Современные технологии</h3>
+             <p class="second-text" >Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
        </li>
     
     </ul>
@@ -82,22 +85,22 @@
 </section>
 
 <!--фотоотчет-->
-<section> 
+<section class="third-section" > 
 
-    <h2 class="name" >Чем мы занимаемся</h2>
+    <h2 class="first-title" >Чем мы занимаемся</h2>
 
-    <ul class="list" >
+    <ul class="reset-point" >
 
         <li>
-            <img class="imeges" src="./images/eff34a388bbc6409758a002e5a58c3ca.jpg" width="370" alt="человек печатает на клавеатуре">
+            <img class="foto" src="./images/eff34a388bbc6409758a002e5a58c3ca.jpg" width="370" alt="человек печатает на клавеатуре">
         </li>
 
         <li>
-            <img class="imeges" src="./images/fe209b7db875477ca0f844823574082d.jpg" width="370" alt="в руках техника Apple">
+            <img class="foto" src="./images/fe209b7db875477ca0f844823574082d.jpg" width="370" alt="в руках техника Apple">
         </li>
 
         <li>
-            <img class="imeges" src="./images/ff490664ba91f138b9f708e01d65306a.jpg" width="370" alt="в руках планшет с диаграмой цветов">
+            <img class="foto" src="./images/ff490664ba91f138b9f708e01d65306a.jpg" width="370" alt="в руках планшет с диаграмой цветов">
         </li>
 
     </ul>
@@ -107,58 +110,58 @@
 
 
 
-<!--Фото команды-->
-<section>
-<h2 class="name-cart">Наша команда</h2>
-<ul class="list" >
+<!--Фото команды--> 
+<section class="for-section" >
+<h2 class="second-heading">Наша команда</h2>
+<ul class="reset-point" >
     <li>
-      <img class="fotos" src="./images/01b0562402f9066520924acac0be8dc7.jpg" width="270" alt="парень на фото"/>
-       <h3 class="name-developer">Игорь Демьяненко</h3>
-       <p class="specification" lang="en">Product Designer</p>
+    <img class="" src="./images/01b0562402f9066520924acac0be8dc7.jpg" width="270" alt="парень на фото"/>
+    <h3 class="">Игорь Демьяненко</h3>
+    <p class="" lang="en">Product Designer</p>
     </li>
 
     <li>
-        <img class="fotos" src="./images/8ed9ff0c05008e3e7ae5285b05efd211.jpg" width="270" alt="парень на фото" />
-        <h3 class="name-developer" >Ольга Репина</h3>
-        <p class="specification" lang="en">Frontend Developer</p>
+        <img class="" src="./images/8ed9ff0c05008e3e7ae5285b05efd211.jpg" width="270" alt="девушка на фото " />
+        <h3 class="" >Ольга Репина</h3>
+        <p class="" lang="en">Frontend Developer</p>
     </li>
 
 
     <li>
-        <img class="fotos" src="./images/c03fb848ed9dfc89543bbe97156c3661.jpg" width="270" alt="девушка на фото" />
-        <h3 class="name-developer" >Николай Тарасов</h3>
-        <p class="specification" lang="en">Marketing</p>
+        <img class="" src="./images/c03fb848ed9dfc89543bbe97156c3661.jpg" width="270" alt="парень на фото" />
+        <h3 class="" >Николай Тарасов</h3>
+        <p class="" lang="en">Marketing</p>
     </li>
 
     <li>
-        <img class="fotos" src="./images/7ff905b2d5f56aa0d2b29aa48e997cd8.jpg" width="270" alt="парень на фото" />
-        <h3 class="name-developer" >Михаил Ермаков</h3>
-        <p class="specification" lang="en">UI Designer</p>
+        <img class="" src="./images/7ff905b2d5f56aa0d2b29aa48e997cd8.jpg" width="270" alt="парень на фото" />
+        <h3 class="" >Михаил Ермаков</h3>
+        <p class="" lang="en">UI Designer</p>
     </li>
 </ul>
 </section>
 
-
-
 <!--Подвал-->
-<footer>
-    <a class="link header-logo" href="http://127.0.0.1:5500/">Web<span class="color" >Studio</span></a>
-    <address>
-        <ul class="list" >
+<footer class="footer-style">
+<!--Ссылка навигация -->
+<a class="logo reset-decoration" href="http://127.0.0.1:5500/">Web<span class="logo-color-second">Studio</span></a>
 
-            <li><a class="link header-link "
-                    href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+2,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4380034,30.5231071,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf01cf686589:0x1debb33ce8d40a66!8m2!3d50.4380034!4d30.5252958">г.
-                    Киев, пр-т Леси Украинки, 26</a></li>
 
-           <li class="link"><a class="header-email" href="info@example.com"></a>info@example.com</li>
+<address>
+            <ul class="reset-point">
+                <li>
+                    <a class="reset-decoration footer-link "
+                        href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru">г.
+                        Киев, пр-т Леси Украинки, 26</a>
+            
+                <li class=""><a class="reset-decoration  footer-mail" href="mailto:info@example.com">info@example.com</a></li>
+            
+                <li class=""><a class="reset-decoration  footer-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+        </address>
 
-           <li class="link"><a class="header-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
-
-          
-       </ul>
-    </address>
 </footer>
- 
+
 
 
 
@@ -167,5 +170,8 @@
 
 </body>
 </html>
+
+
+
 
 
